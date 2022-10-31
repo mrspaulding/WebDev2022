@@ -1,0 +1,37 @@
+body {
+  background: #4386a3;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Combo', cursive;
+  border-style:solid;
+  text-align: center;
+  background-image: url('wuKh5xc-3265395465.jpg');
+  color: rgba(255,255,0,.5);
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+.top_subheading {
+  color:purple;
+}
+
+.bottom_subheading {
+  color:skyblue;
+}
+
+.enhance {
+  color: blue;
+  font-weight: bold;
+}
+
+@media only screen and (max-width:300px) {
+  body {
+    background-color:yellow;
+  }
+}
+
+
