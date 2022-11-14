@@ -46,6 +46,7 @@ h2 {
 
 .card {
   flex-basis:300px;
+  max-width:600px;
   flex-grow:1;
   margin:20px 0;
 }
