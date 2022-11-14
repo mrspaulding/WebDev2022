@@ -45,7 +45,7 @@ h2 {
 }
 
 .card {
-  flex-basis:400px;
+  flex-basis:300px;
   flex-grow:1;
   margin:20px 0;
 }
