@@ -16,21 +16,42 @@ h2 {
   font-family: 'Pacifico', cursive;
 }
 
-img {
+.wikipedia-img {
   width:25%;
 }
 
-.top_subheading {
+.wikipedia_subheading {
   color:purple;
 }
 
-.bottom_subheading {
+.bikes_subheading {
   color:skyblue;
+}
+
+.cats_subheading {
+  color:aqua;
 }
 
 .enhance {
   color: blue;
   font-weight: bold;
+}
+
+.gallery {
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis:400px;
+  flex-grow:1;
+  margin:20px 0;
+}
+
+.card img {
+  width:80%;
 }
 
 @media only screen and (max-width:300px) {
