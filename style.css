@@ -16,6 +16,15 @@ h2 {
   font-family: 'Pacifico', cursive;
 }
 
+table,th,tr,td {
+  border:solid 1px;
+}
+
+td,th {
+  width:20%;
+}
+
+
 .enhance {
   color: blue;
   font-weight: bold;
@@ -39,9 +48,21 @@ h2 {
   width:80%;
 }
 
-@media only screen and (max-width:300px) {
-  body {
-    background-color:yellow;
+.item img {
+  width:50%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .item {
+    display:inline-block;
+    vertical-align:top;
+    width:30%;
+    padding: 1%;
+
+  }
+  .item img {
+    height:20rem;
+    width:auto;
   }
 }
 
